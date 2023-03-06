@@ -64,7 +64,6 @@ Array.prototype.myReduce = function (cb, intialVal) {
     return acc
 }
 
-
 let nums = [2, 3, 4, 5]
 const sum = nums.myReduce((a, elem,) => {
     return a + elem
